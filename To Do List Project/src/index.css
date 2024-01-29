@@ -1,0 +1,38 @@
+header {
+  background-color: black;
+  align-items: center;
+  color: #fff;
+  height: 50px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+.title {
+  color: gray;
+  position: relative;
+  left: 1250px;
+  bottom: 27px; 
+}
+.logo-img {
+  position: relative;
+  top: 35.5px;
+  height: 50px;
+  width: 40px;
+}
+.footer {
+  position: absolute;
+  bottom: 10px;
+  right: 25%;
+  width: 50%;
+  border: 2px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#root{
+  background-color: beige;
+  height: 100vh;
+}
